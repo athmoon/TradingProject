@@ -1,0 +1,2351 @@
+"TradingProject/stock.ml" 7 100 104 "TradingProject/stock.ml" 7 100 115
+type(
+  string
+)
+ident(
+  def currentYear "TradingProject/stock.ml" 9 126 126 --
+)
+"TradingProject/stock.ml" 7 100 118 "TradingProject/stock.ml" 7 100 124
+type(
+  string
+)
+"TradingProject/stock.ml" 27 448 452 "TradingProject/stock.ml" 27 448 467
+type(
+  string -> Netdate.t
+)
+ident(
+  def parseDateString "TradingProject/stock.ml" 56 3720 3720 --
+)
+"TradingProject/stock.ml" 27 448 469 "TradingProject/stock.ml" 27 448 473
+type(
+  string
+)
+ident(
+  def date "TradingProject/stock.ml" 27 448 482 "TradingProject/stock.ml" 31 682 708
+)
+"TradingProject/stock.ml" 28 497 502 "TradingProject/stock.ml" 28 497 503
+type(
+  Str.regexp
+)
+"TradingProject/stock.ml" 28 497 506 "TradingProject/stock.ml" 28 497 516
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"TradingProject/stock.ml" 28 497 517 "TradingProject/stock.ml" 28 497 520
+type(
+  string
+)
+"TradingProject/stock.ml" 28 497 506 "TradingProject/stock.ml" 28 497 520
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"TradingProject/stock.ml" 29 524 529 "TradingProject/stock.ml" 29 524 532
+type(
+  int
+)
+"TradingProject/stock.ml" 29 524 535 "TradingProject/stock.ml" 29 524 553
+type(
+  Str.regexp -> string -> int -> int
+)
+ident(
+  ext_ref Str.search_forward
+)
+"TradingProject/stock.ml" 29 524 554 "TradingProject/stock.ml" 29 524 555
+type(
+  Str.regexp
+)
+ident(
+  int_ref r "TradingProject/stock.ml" 28 497 502 "TradingProject/stock.ml" 28 497 503
+)
+"TradingProject/stock.ml" 29 524 556 "TradingProject/stock.ml" 29 524 560
+type(
+  string
+)
+ident(
+  int_ref date "TradingProject/stock.ml" 27 448 469 "TradingProject/stock.ml" 27 448 473
+)
+"TradingProject/stock.ml" 29 524 561 "TradingProject/stock.ml" 29 524 562
+type(
+  int
+)
+"TradingProject/stock.ml" 29 524 535 "TradingProject/stock.ml" 29 524 562
+call(
+  stack
+)
+type(
+  int
+)
+"TradingProject/stock.ml" 30 566 571 "TradingProject/stock.ml" 30 566 582
+type(
+  string
+)
+"TradingProject/stock.ml" 30 566 586 "TradingProject/stock.ml" 30 566 599
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 30 566 600 "TradingProject/stock.ml" 30 566 602
+type(
+  string
+)
+"TradingProject/stock.ml" 30 566 604 "TradingProject/stock.ml" 30 566 621
+type(
+  string -> int -> string
+)
+ident(
+  ext_ref Str.string_before
+)
+"TradingProject/stock.ml" 30 566 622 "TradingProject/stock.ml" 30 566 626
+type(
+  string
+)
+ident(
+  int_ref date "TradingProject/stock.ml" 27 448 469 "TradingProject/stock.ml" 27 448 473
+)
+"TradingProject/stock.ml" 30 566 628 "TradingProject/stock.ml" 30 566 631
+type(
+  int
+)
+ident(
+  int_ref num "TradingProject/stock.ml" 29 524 529 "TradingProject/stock.ml" 29 524 532
+)
+"TradingProject/stock.ml" 30 566 631 "TradingProject/stock.ml" 30 566 632
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"TradingProject/stock.ml" 30 566 632 "TradingProject/stock.ml" 30 566 633
+type(
+  int
+)
+"TradingProject/stock.ml" 30 566 627 "TradingProject/stock.ml" 30 566 634
+type(
+  int
+)
+"TradingProject/stock.ml" 30 566 604 "TradingProject/stock.ml" 30 566 634
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 30 566 635 "TradingProject/stock.ml" 30 566 646
+type(
+  string
+)
+ident(
+  int_ref currentYear "TradingProject/stock.ml" 7 100 104 "TradingProject/stock.ml" 7 100 115
+)
+"TradingProject/stock.ml" 30 566 647 "TradingProject/stock.ml" 30 566 663
+type(
+  string -> int -> string
+)
+ident(
+  ext_ref Str.string_after
+)
+"TradingProject/stock.ml" 30 566 664 "TradingProject/stock.ml" 30 566 668
+type(
+  string
+)
+ident(
+  int_ref date "TradingProject/stock.ml" 27 448 469 "TradingProject/stock.ml" 27 448 473
+)
+"TradingProject/stock.ml" 30 566 670 "TradingProject/stock.ml" 30 566 673
+type(
+  int
+)
+ident(
+  int_ref num "TradingProject/stock.ml" 29 524 529 "TradingProject/stock.ml" 29 524 532
+)
+"TradingProject/stock.ml" 30 566 673 "TradingProject/stock.ml" 30 566 674
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( + )
+)
+"TradingProject/stock.ml" 30 566 674 "TradingProject/stock.ml" 30 566 675
+type(
+  int
+)
+"TradingProject/stock.ml" 30 566 669 "TradingProject/stock.ml" 30 566 676
+type(
+  int
+)
+"TradingProject/stock.ml" 30 566 647 "TradingProject/stock.ml" 30 566 676
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 30 566 603 "TradingProject/stock.ml" 30 566 677
+type(
+  string list
+)
+"TradingProject/stock.ml" 30 566 585 "TradingProject/stock.ml" 30 566 678
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 31 682 683 "TradingProject/stock.ml" 31 682 696
+type(
+  ?localzone:bool -> ?zone:int -> string -> Netdate.t
+)
+ident(
+  ext_ref Netdate.parse
+)
+"TradingProject/stock.ml" 31 682 697 "TradingProject/stock.ml" 31 682 708
+type(
+  string
+)
+ident(
+  int_ref parsestring "TradingProject/stock.ml" 30 566 571 "TradingProject/stock.ml" 30 566 582
+)
+"TradingProject/stock.ml" 31 682 683 "TradingProject/stock.ml" 31 682 708
+call(
+  tail
+)
+type(
+  Netdate.t
+)
+"TradingProject/stock.ml" 30 566 567 "TradingProject/stock.ml" 31 682 708
+type(
+  Netdate.t
+)
+"TradingProject/stock.ml" 29 524 525 "TradingProject/stock.ml" 31 682 708
+type(
+  Netdate.t
+)
+"TradingProject/stock.ml" 28 497 498 "TradingProject/stock.ml" 31 682 708
+type(
+  Netdate.t
+)
+type(
+  Netdate.t
+)
+"TradingProject/stock.ml" 56 3720 3724 "TradingProject/stock.ml" 56 3720 3736
+type(
+  string -> Yojson.Safe.json option
+)
+ident(
+  def getquotejson "TradingProject/stock.ml" 68 4062 4062 --
+)
+"TradingProject/stock.ml" 56 3720 3738 "TradingProject/stock.ml" 56 3720 3744
+type(
+  string
+)
+ident(
+  def ticker "TradingProject/stock.ml" 56 3720 3754 "TradingProject/stock.ml" 66 4052 4058
+)
+"TradingProject/stock.ml" 57 3783 3788 "TradingProject/stock.ml" 57 3783 3793
+type(
+  string
+)
+"TradingProject/stock.ml" 57 3783 3796 "TradingProject/stock.ml" 57 3783 3809
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 57 3783 3810 "TradingProject/stock.ml" 57 3783 3812
+type(
+  string
+)
+"TradingProject/stock.ml" 57 3783 3814 "TradingProject/stock.ml" 57 3783 3863
+type(
+  string
+)
+"TradingProject/stock.ml" 57 3783 3864 "TradingProject/stock.ml" 57 3783 3870
+type(
+  string
+)
+ident(
+  int_ref ticker "TradingProject/stock.ml" 56 3720 3738 "TradingProject/stock.ml" 56 3720 3744
+)
+"TradingProject/stock.ml" 57 3783 3813 "TradingProject/stock.ml" 57 3783 3871
+type(
+  string list
+)
+"TradingProject/stock.ml" 57 3783 3796 "TradingProject/stock.ml" 57 3783 3871
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 58 3875 3880 "TradingProject/stock.ml" 58 3875 3888
+type(
+  string
+)
+"TradingProject/stock.ml" 60 3897 3900 "TradingProject/stock.ml" 60 3897 3916
+type(
+  string -> int -> string
+)
+ident(
+  ext_ref Str.string_after
+)
+"TradingProject/stock.ml" 60 3897 3918 "TradingProject/stock.ml" 60 3897 3926
+type(
+  string -> string
+)
+ident(
+  ext_ref Http_client.Convenience.http_get
+)
+"TradingProject/stock.ml" 60 3897 3927 "TradingProject/stock.ml" 60 3897 3932
+type(
+  string
+)
+ident(
+  int_ref query "TradingProject/stock.ml" 57 3783 3788 "TradingProject/stock.ml" 57 3783 3793
+)
+"TradingProject/stock.ml" 60 3897 3917 "TradingProject/stock.ml" 60 3897 3933
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 60 3897 3934 "TradingProject/stock.ml" 60 3897 3935
+type(
+  int
+)
+"TradingProject/stock.ml" 60 3897 3900 "TradingProject/stock.ml" 60 3897 3935
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 61 3936 3943 "TradingProject/stock.ml" 61 3936 3944
+type(
+  exn
+)
+"TradingProject/stock.ml" 62 3949 3952 "TradingProject/stock.ml" 62 3949 3954
+type(
+  string
+)
+"TradingProject/stock.ml" 59 3891 3893 "TradingProject/stock.ml" 62 3949 3954
+type(
+  string
+)
+"TradingProject/stock.ml" 63 3958 3964 "TradingProject/stock.ml" 63 3958 3968
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 64 3971 3983 "TradingProject/stock.ml" 64 3971 3999
+type(
+  ?buf:Bi_outbuf.t ->
+  ?fname:string -> ?lnum:int -> string -> Yojson.Safe.json
+)
+ident(
+  ext_ref Yojson.Safe.from_string
+)
+"TradingProject/stock.ml" 64 3971 4000 "TradingProject/stock.ml" 64 3971 4008
+type(
+  string
+)
+ident(
+  int_ref pagetext "TradingProject/stock.ml" 58 3875 3880 "TradingProject/stock.ml" 58 3875 3888
+)
+"TradingProject/stock.ml" 64 3971 3982 "TradingProject/stock.ml" 64 3971 4009
+call(
+  stack
+)
+type(
+  Yojson.Safe.json
+)
+"TradingProject/stock.ml" 64 3971 3978 "TradingProject/stock.ml" 64 3971 4009
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 65 4010 4035 "TradingProject/stock.ml" 65 4010 4040
+type(
+  string
+)
+ident(
+  def msg "TradingProject/stock.ml" 65 4010 4044 "TradingProject/stock.ml" 65 4010 4048
+)
+"TradingProject/stock.ml" 65 4010 4018 "TradingProject/stock.ml" 65 4010 4040
+type(
+  exn
+)
+"TradingProject/stock.ml" 65 4010 4044 "TradingProject/stock.ml" 65 4010 4048
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 64 3971 3974 "TradingProject/stock.ml" 65 4010 4048
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 66 4052 4054 "TradingProject/stock.ml" 66 4052 4058
+type(
+  Yojson.Safe.json option
+)
+ident(
+  int_ref json "TradingProject/stock.ml" 63 3958 3964 "TradingProject/stock.ml" 63 3958 3968
+)
+"TradingProject/stock.ml" 63 3958 3960 "TradingProject/stock.ml" 66 4052 4058
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 58 3875 3876 "TradingProject/stock.ml" 66 4052 4058
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 57 3783 3784 "TradingProject/stock.ml" 66 4052 4058
+type(
+  Yojson.Safe.json option
+)
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 68 4062 4066 "TradingProject/stock.ml" 68 4062 4079
+type(
+  string -> stockQuote option
+)
+ident(
+  def getStockQuote "TradingProject/stock.ml" 110 6165 6165 --
+)
+"TradingProject/stock.ml" 68 4062 4081 "TradingProject/stock.ml" 68 4062 4087
+type(
+  string
+)
+ident(
+  def ticker "TradingProject/stock.ml" 68 4062 4097 "TradingProject/stock.ml" 103 5771 5774
+)
+"TradingProject/stock.ml" 69 4119 4124 "TradingProject/stock.ml" 69 4119 4128
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 69 4119 4131 "TradingProject/stock.ml" 69 4119 4143
+type(
+  string -> Yojson.Safe.json option
+)
+ident(
+  int_ref getquotejson "TradingProject/stock.ml" 56 3720 3724 "TradingProject/stock.ml" 56 3720 3736
+)
+"TradingProject/stock.ml" 69 4119 4144 "TradingProject/stock.ml" 69 4119 4150
+type(
+  string
+)
+ident(
+  int_ref ticker "TradingProject/stock.ml" 68 4062 4081 "TradingProject/stock.ml" 68 4062 4087
+)
+"TradingProject/stock.ml" 69 4119 4131 "TradingProject/stock.ml" 69 4119 4150
+call(
+  stack
+)
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 70 4154 4167 "TradingProject/stock.ml" 70 4154 4171
+type(
+  Yojson.Safe.json option
+)
+ident(
+  int_ref json "TradingProject/stock.ml" 69 4119 4124 "TradingProject/stock.ml" 69 4119 4128
+)
+"TradingProject/stock.ml" 71 4177 4181 "TradingProject/stock.ml" 71 4177 4185
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 71 4177 4189 "TradingProject/stock.ml" 71 4177 4193
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 72 4194 4202 "TradingProject/stock.ml" 72 4194 4205
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "TradingProject/stock.ml" 73 4210 4213 "TradingProject/stock.ml" 102 5764 5770
+)
+"TradingProject/stock.ml" 72 4194 4198 "TradingProject/stock.ml" 72 4194 4205
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 73 4210 4217 "TradingProject/stock.ml" 73 4210 4222
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 73 4210 4225 "TradingProject/stock.ml" 73 4210 4248
+type(
+  int -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.index
+)
+"TradingProject/stock.ml" 73 4210 4249 "TradingProject/stock.ml" 73 4210 4250
+type(
+  int
+)
+"TradingProject/stock.ml" 73 4210 4252 "TradingProject/stock.ml" 73 4210 4272
+type(
+  Yojson.Safe.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Safe.to_basic
+)
+"TradingProject/stock.ml" 73 4210 4273 "TradingProject/stock.ml" 73 4210 4274
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 72 4194 4202 "TradingProject/stock.ml" 72 4194 4205
+)
+"TradingProject/stock.ml" 73 4210 4251 "TradingProject/stock.ml" 73 4210 4275
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 73 4210 4225 "TradingProject/stock.ml" 73 4210 4275
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 74 4279 4286 "TradingProject/stock.ml" 74 4279 4287
+type(
+  string
+)
+"TradingProject/stock.ml" 74 4279 4290 "TradingProject/stock.ml" 74 4279 4295
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref basic "TradingProject/stock.ml" 73 4210 4217 "TradingProject/stock.ml" 73 4210 4222
+)
+"TradingProject/stock.ml" 74 4279 4296 "TradingProject/stock.ml" 74 4279 4298
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 74 4279 4299 "TradingProject/stock.ml" 74 4279 4305
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"TradingProject/stock.ml" 74 4279 4306 "TradingProject/stock.ml" 74 4279 4309
+type(
+  string
+)
+"TradingProject/stock.ml" 74 4279 4299 "TradingProject/stock.ml" 74 4279 4309
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"TradingProject/stock.ml" 74 4279 4290 "TradingProject/stock.ml" 74 4279 4309
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 74 4279 4310 "TradingProject/stock.ml" 74 4279 4312
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 74 4279 4313 "TradingProject/stock.ml" 74 4279 4322
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"TradingProject/stock.ml" 74 4279 4290 "TradingProject/stock.ml" 74 4279 4322
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 75 4326 4333 "TradingProject/stock.ml" 75 4326 4336
+type(
+  exchange
+)
+"TradingProject/stock.ml" 76 4339 4355 "TradingProject/stock.ml" 76 4339 4356
+type(
+  string
+)
+ident(
+  int_ref e "TradingProject/stock.ml" 74 4279 4286 "TradingProject/stock.ml" 74 4279 4287
+)
+"TradingProject/stock.ml" 77 4362 4369 "TradingProject/stock.ml" 77 4362 4377
+type(
+  string
+)
+"TradingProject/stock.ml" 77 4362 4381 "TradingProject/stock.ml" 77 4362 4387
+type(
+  exchange
+)
+"TradingProject/stock.ml" 78 4388 4395 "TradingProject/stock.ml" 78 4388 4401
+type(
+  string
+)
+"TradingProject/stock.ml" 78 4388 4405 "TradingProject/stock.ml" 78 4388 4409
+type(
+  exchange
+)
+"TradingProject/stock.ml" 79 4410 4417 "TradingProject/stock.ml" 79 4410 4422
+type(
+  string
+)
+"TradingProject/stock.ml" 79 4410 4426 "TradingProject/stock.ml" 79 4410 4429
+type(
+  exchange
+)
+"TradingProject/stock.ml" 80 4430 4437 "TradingProject/stock.ml" 80 4430 4446
+type(
+  string
+)
+"TradingProject/stock.ml" 80 4430 4450 "TradingProject/stock.ml" 80 4430 4457
+type(
+  exchange
+)
+"TradingProject/stock.ml" 81 4458 4465 "TradingProject/stock.ml" 81 4458 4466
+type(
+  string
+)
+"TradingProject/stock.ml" 81 4458 4470 "TradingProject/stock.ml" 81 4458 4475
+type(
+  exchange
+)
+"TradingProject/stock.ml" 76 4339 4343 "TradingProject/stock.ml" 82 4476 4483
+type(
+  exchange
+)
+"TradingProject/stock.ml" 83 4487 4503 "TradingProject/stock.ml" 83 4487 4506
+type(
+  exchange
+)
+ident(
+  int_ref exc "TradingProject/stock.ml" 75 4326 4333 "TradingProject/stock.ml" 75 4326 4336
+)
+"TradingProject/stock.ml" 83 4487 4507 "TradingProject/stock.ml" 83 4487 4509
+type(
+  exchange -> exchange -> bool
+)
+ident(
+  ext_ref Pervasives.( != )
+)
+"TradingProject/stock.ml" 83 4487 4510 "TradingProject/stock.ml" 83 4487 4515
+type(
+  exchange
+)
+"TradingProject/stock.ml" 83 4487 4502 "TradingProject/stock.ml" 83 4487 4516
+type(
+  bool
+)
+"TradingProject/stock.ml" 84 4522 4528 "TradingProject/stock.ml" 84 4522 4532
+type(
+  bool
+)
+"TradingProject/stock.ml" 85 4536 4545 "TradingProject/stock.ml" 85 4536 4553
+type(
+  Str.regexp
+)
+"TradingProject/stock.ml" 85 4536 4556 "TradingProject/stock.ml" 85 4536 4566
+type(
+  string -> Str.regexp
+)
+ident(
+  ext_ref Str.regexp
+)
+"TradingProject/stock.ml" 85 4536 4567 "TradingProject/stock.ml" 85 4536 4586
+type(
+  string
+)
+"TradingProject/stock.ml" 85 4536 4556 "TradingProject/stock.ml" 85 4536 4586
+call(
+  stack
+)
+type(
+  Str.regexp
+)
+"TradingProject/stock.ml" 86 4591 4600 "TradingProject/stock.ml" 86 4591 4601
+type(
+  string
+)
+"TradingProject/stock.ml" 86 4591 4604 "TradingProject/stock.ml" 86 4591 4609
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref basic "TradingProject/stock.ml" 73 4210 4217 "TradingProject/stock.ml" 73 4210 4222
+)
+"TradingProject/stock.ml" 86 4591 4610 "TradingProject/stock.ml" 86 4591 4612
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 86 4591 4613 "TradingProject/stock.ml" 86 4591 4619
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"TradingProject/stock.ml" 86 4591 4620 "TradingProject/stock.ml" 86 4591 4623
+type(
+  string
+)
+"TradingProject/stock.ml" 86 4591 4613 "TradingProject/stock.ml" 86 4591 4623
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"TradingProject/stock.ml" 86 4591 4604 "TradingProject/stock.ml" 86 4591 4623
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 86 4591 4624 "TradingProject/stock.ml" 86 4591 4626
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 86 4591 4627 "TradingProject/stock.ml" 86 4591 4654
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"TradingProject/stock.ml" 86 4591 4604 "TradingProject/stock.ml" 86 4591 4654
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 87 4658 4667 "TradingProject/stock.ml" 87 4658 4672
+type(
+  stock
+)
+"TradingProject/stock.ml" 87 4658 4685 "TradingProject/stock.ml" 87 4658 4686
+type(
+  string
+)
+ident(
+  int_ref t "TradingProject/stock.ml" 86 4591 4600 "TradingProject/stock.ml" 86 4591 4601
+)
+"TradingProject/stock.ml" 87 4658 4698 "TradingProject/stock.ml" 87 4658 4701
+type(
+  exchange
+)
+ident(
+  int_ref exc "TradingProject/stock.ml" 75 4326 4333 "TradingProject/stock.ml" 75 4326 4336
+)
+"TradingProject/stock.ml" 87 4658 4675 "TradingProject/stock.ml" 87 4658 4702
+type(
+  stock
+)
+"TradingProject/stock.ml" 88 4706 4715 "TradingProject/stock.ml" 88 4706 4720
+type(
+  float
+)
+"TradingProject/stock.ml" 88 4706 4723 "TradingProject/stock.ml" 88 4706 4738
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"TradingProject/stock.ml" 88 4706 4740 "TradingProject/stock.ml" 88 4706 4757
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  ext_ref Str.replace_first
+)
+"TradingProject/stock.ml" 88 4706 4758 "TradingProject/stock.ml" 88 4706 4766
+type(
+  Str.regexp
+)
+ident(
+  int_ref commareg "TradingProject/stock.ml" 85 4536 4545 "TradingProject/stock.ml" 85 4536 4553
+)
+"TradingProject/stock.ml" 88 4706 4767 "TradingProject/stock.ml" 88 4706 4775
+type(
+  string
+)
+"TradingProject/stock.ml" 88 4706 4777 "TradingProject/stock.ml" 88 4706 4782
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref basic "TradingProject/stock.ml" 73 4210 4217 "TradingProject/stock.ml" 73 4210 4222
+)
+"TradingProject/stock.ml" 88 4706 4783 "TradingProject/stock.ml" 88 4706 4785
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 88 4706 4786 "TradingProject/stock.ml" 88 4706 4792
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"TradingProject/stock.ml" 88 4706 4793 "TradingProject/stock.ml" 88 4706 4800
+type(
+  string
+)
+"TradingProject/stock.ml" 88 4706 4786 "TradingProject/stock.ml" 88 4706 4800
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"TradingProject/stock.ml" 88 4706 4777 "TradingProject/stock.ml" 88 4706 4800
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 88 4706 4801 "TradingProject/stock.ml" 88 4706 4803
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 88 4706 4804 "TradingProject/stock.ml" 88 4706 4831
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"TradingProject/stock.ml" 88 4706 4776 "TradingProject/stock.ml" 88 4706 4832
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 88 4706 4739 "TradingProject/stock.ml" 88 4706 4833
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 88 4706 4723 "TradingProject/stock.ml" 88 4706 4833
+type(
+  float
+)
+"TradingProject/stock.ml" 89 4837 4846 "TradingProject/stock.ml" 89 4837 4852
+type(
+  float
+)
+"TradingProject/stock.ml" 89 4837 4855 "TradingProject/stock.ml" 89 4837 4870
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"TradingProject/stock.ml" 89 4837 4872 "TradingProject/stock.ml" 89 4837 4877
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref basic "TradingProject/stock.ml" 73 4210 4217 "TradingProject/stock.ml" 73 4210 4222
+)
+"TradingProject/stock.ml" 89 4837 4878 "TradingProject/stock.ml" 89 4837 4880
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 89 4837 4881 "TradingProject/stock.ml" 89 4837 4887
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"TradingProject/stock.ml" 89 4837 4888 "TradingProject/stock.ml" 89 4837 4891
+type(
+  string
+)
+"TradingProject/stock.ml" 89 4837 4881 "TradingProject/stock.ml" 89 4837 4891
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"TradingProject/stock.ml" 89 4837 4872 "TradingProject/stock.ml" 89 4837 4891
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 89 4837 4892 "TradingProject/stock.ml" 89 4837 4894
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 89 4837 4895 "TradingProject/stock.ml" 89 4837 4922
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"TradingProject/stock.ml" 89 4837 4871 "TradingProject/stock.ml" 89 4837 4923
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 89 4837 4855 "TradingProject/stock.ml" 89 4837 4923
+type(
+  float
+)
+"TradingProject/stock.ml" 90 4927 4936 "TradingProject/stock.ml" 90 4927 4949
+type(
+  float
+)
+"TradingProject/stock.ml" 90 4927 4952 "TradingProject/stock.ml" 90 4927 4967
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"TradingProject/stock.ml" 90 4927 4969 "TradingProject/stock.ml" 90 4927 4974
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref basic "TradingProject/stock.ml" 73 4210 4217 "TradingProject/stock.ml" 73 4210 4222
+)
+"TradingProject/stock.ml" 90 4927 4975 "TradingProject/stock.ml" 90 4927 4977
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 90 4927 4978 "TradingProject/stock.ml" 90 4927 4984
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"TradingProject/stock.ml" 90 4927 4985 "TradingProject/stock.ml" 90 4927 4989
+type(
+  string
+)
+"TradingProject/stock.ml" 90 4927 4978 "TradingProject/stock.ml" 90 4927 4989
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"TradingProject/stock.ml" 90 4927 4969 "TradingProject/stock.ml" 90 4927 4989
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 90 4927 4990 "TradingProject/stock.ml" 90 4927 4992
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 90 4927 4993 "TradingProject/stock.ml" 90 4927 5020
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"TradingProject/stock.ml" 90 4927 4968 "TradingProject/stock.ml" 90 4927 5021
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 90 4927 4952 "TradingProject/stock.ml" 90 4927 5021
+type(
+  float
+)
+"TradingProject/stock.ml" 91 5025 5034 "TradingProject/stock.ml" 91 5025 5042
+type(
+  float option
+)
+"TradingProject/stock.ml" 92 5046 5061 "TradingProject/stock.ml" 92 5046 5076
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"TradingProject/stock.ml" 92 5046 5078 "TradingProject/stock.ml" 92 5046 5095
+type(
+  Str.regexp -> string -> string -> string
+)
+ident(
+  ext_ref Str.replace_first
+)
+"TradingProject/stock.ml" 92 5046 5096 "TradingProject/stock.ml" 92 5046 5104
+type(
+  Str.regexp
+)
+ident(
+  int_ref commareg "TradingProject/stock.ml" 85 4536 4545 "TradingProject/stock.ml" 85 4536 4553
+)
+"TradingProject/stock.ml" 92 5046 5105 "TradingProject/stock.ml" 92 5046 5113
+type(
+  string
+)
+"TradingProject/stock.ml" 92 5046 5115 "TradingProject/stock.ml" 92 5046 5120
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref basic "TradingProject/stock.ml" 73 4210 4217 "TradingProject/stock.ml" 73 4210 4222
+)
+"TradingProject/stock.ml" 92 5046 5121 "TradingProject/stock.ml" 92 5046 5123
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 92 5046 5124 "TradingProject/stock.ml" 92 5046 5130
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"TradingProject/stock.ml" 92 5046 5131 "TradingProject/stock.ml" 92 5046 5136
+type(
+  string
+)
+"TradingProject/stock.ml" 92 5046 5124 "TradingProject/stock.ml" 92 5046 5136
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"TradingProject/stock.ml" 92 5046 5115 "TradingProject/stock.ml" 92 5046 5136
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 92 5046 5137 "TradingProject/stock.ml" 92 5046 5139
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 92 5046 5140 "TradingProject/stock.ml" 92 5046 5167
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"TradingProject/stock.ml" 92 5046 5114 "TradingProject/stock.ml" 92 5046 5168
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 92 5046 5077 "TradingProject/stock.ml" 92 5046 5169
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 92 5046 5060 "TradingProject/stock.ml" 92 5046 5170
+type(
+  float
+)
+"TradingProject/stock.ml" 92 5046 5056 "TradingProject/stock.ml" 92 5046 5170
+type(
+  float option
+)
+"TradingProject/stock.ml" 93 5172 5183 "TradingProject/stock.ml" 93 5172 5184
+type(
+  exn
+)
+"TradingProject/stock.ml" 93 5172 5188 "TradingProject/stock.ml" 93 5172 5192
+type(
+  float option
+)
+"TradingProject/stock.ml" 92 5046 5052 "TradingProject/stock.ml" 93 5172 5192
+type(
+  float option
+)
+"TradingProject/stock.ml" 94 5196 5205 "TradingProject/stock.ml" 94 5196 5218
+type(
+  string
+)
+"TradingProject/stock.ml" 94 5196 5221 "TradingProject/stock.ml" 94 5196 5226
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref basic "TradingProject/stock.ml" 73 4210 4217 "TradingProject/stock.ml" 73 4210 4222
+)
+"TradingProject/stock.ml" 94 5196 5227 "TradingProject/stock.ml" 94 5196 5229
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 94 5196 5230 "TradingProject/stock.ml" 94 5196 5236
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"TradingProject/stock.ml" 94 5196 5237 "TradingProject/stock.ml" 94 5196 5241
+type(
+  string
+)
+"TradingProject/stock.ml" 94 5196 5230 "TradingProject/stock.ml" 94 5196 5241
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"TradingProject/stock.ml" 94 5196 5221 "TradingProject/stock.ml" 94 5196 5241
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 94 5196 5242 "TradingProject/stock.ml" 94 5196 5244
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 94 5196 5245 "TradingProject/stock.ml" 94 5196 5272
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"TradingProject/stock.ml" 94 5196 5221 "TradingProject/stock.ml" 94 5196 5272
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 95 5276 5285 "TradingProject/stock.ml" 95 5276 5290
+type(
+  float option
+)
+"TradingProject/stock.ml" 96 5294 5309 "TradingProject/stock.ml" 96 5294 5324
+type(
+  string -> float
+)
+ident(
+  ext_ref Pervasives.float_of_string
+)
+"TradingProject/stock.ml" 96 5294 5326 "TradingProject/stock.ml" 96 5294 5331
+type(
+  Yojson.Basic.json
+)
+ident(
+  int_ref basic "TradingProject/stock.ml" 73 4210 4217 "TradingProject/stock.ml" 73 4210 4222
+)
+"TradingProject/stock.ml" 96 5294 5332 "TradingProject/stock.ml" 96 5294 5334
+type(
+  Yojson.Basic.json ->
+  (Yojson.Basic.json -> Yojson.Basic.json) -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 96 5294 5335 "TradingProject/stock.ml" 96 5294 5341
+type(
+  string -> Yojson.Basic.json -> Yojson.Basic.json
+)
+ident(
+  ext_ref Yojson.Basic.Util.member
+)
+"TradingProject/stock.ml" 96 5294 5342 "TradingProject/stock.ml" 96 5294 5347
+type(
+  string
+)
+"TradingProject/stock.ml" 96 5294 5335 "TradingProject/stock.ml" 96 5294 5347
+call(
+  stack
+)
+type(
+  Yojson.Basic.json -> Yojson.Basic.json
+)
+"TradingProject/stock.ml" 96 5294 5326 "TradingProject/stock.ml" 96 5294 5347
+call(
+  stack
+)
+type(
+  Yojson.Basic.json
+)
+"TradingProject/stock.ml" 96 5294 5348 "TradingProject/stock.ml" 96 5294 5350
+type(
+  Yojson.Basic.json -> (Yojson.Basic.json -> string) -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.( |> )
+)
+"TradingProject/stock.ml" 96 5294 5351 "TradingProject/stock.ml" 96 5294 5378
+type(
+  Yojson.Basic.json -> string
+)
+ident(
+  ext_ref Yojson.Basic.Util.to_string
+)
+"TradingProject/stock.ml" 96 5294 5325 "TradingProject/stock.ml" 96 5294 5379
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 96 5294 5308 "TradingProject/stock.ml" 96 5294 5380
+type(
+  float
+)
+"TradingProject/stock.ml" 96 5294 5304 "TradingProject/stock.ml" 96 5294 5380
+type(
+  float option
+)
+"TradingProject/stock.ml" 97 5381 5392 "TradingProject/stock.ml" 97 5381 5393
+type(
+  exn
+)
+"TradingProject/stock.ml" 97 5381 5397 "TradingProject/stock.ml" 97 5381 5401
+type(
+  float option
+)
+"TradingProject/stock.ml" 96 5294 5300 "TradingProject/stock.ml" 97 5381 5401
+type(
+  float option
+)
+"TradingProject/stock.ml" 98 5405 5414 "TradingProject/stock.ml" 98 5405 5424
+type(
+  Netdate.t
+)
+"TradingProject/stock.ml" 98 5405 5427 "TradingProject/stock.ml" 98 5405 5442
+type(
+  string -> Netdate.t
+)
+ident(
+  int_ref parseDateString "TradingProject/stock.ml" 27 448 452 "TradingProject/stock.ml" 27 448 467
+)
+"TradingProject/stock.ml" 98 5405 5443 "TradingProject/stock.ml" 98 5405 5456
+type(
+  string
+)
+ident(
+  int_ref lasttradetime "TradingProject/stock.ml" 94 5196 5205 "TradingProject/stock.ml" 94 5196 5218
+)
+"TradingProject/stock.ml" 98 5405 5427 "TradingProject/stock.ml" 98 5405 5456
+call(
+  stack
+)
+type(
+  Netdate.t
+)
+"TradingProject/stock.ml" 99 5460 5469 "TradingProject/stock.ml" 99 5460 5480
+type(
+  Netdate.t
+)
+"TradingProject/stock.ml" 99 5460 5483 "TradingProject/stock.ml" 99 5460 5497
+type(
+  ?localzone:bool -> ?zone:int -> ?nanos:int -> float -> Netdate.t
+)
+ident(
+  ext_ref Netdate.create
+)
+"TradingProject/stock.ml" 99 5460 5499 "TradingProject/stock.ml" 99 5460 5508
+type(
+  unit -> float
+)
+ident(
+  ext_ref Unix.time
+)
+"TradingProject/stock.ml" 99 5460 5509 "TradingProject/stock.ml" 99 5460 5511
+type(
+  unit
+)
+"TradingProject/stock.ml" 99 5460 5498 "TradingProject/stock.ml" 99 5460 5512
+call(
+  stack
+)
+type(
+  float
+)
+"TradingProject/stock.ml" 99 5460 5483 "TradingProject/stock.ml" 99 5460 5512
+call(
+  stack
+)
+type(
+  Netdate.t
+)
+"TradingProject/stock.ml" 100 5516 5535 "TradingProject/stock.ml" 100 5516 5540
+type(
+  stock
+)
+ident(
+  int_ref stock "TradingProject/stock.ml" 87 4658 4667 "TradingProject/stock.ml" 87 4658 4672
+)
+"TradingProject/stock.ml" 100 5516 5549 "TradingProject/stock.ml" 100 5516 5554
+type(
+  float
+)
+ident(
+  int_ref price "TradingProject/stock.ml" 88 4706 4715 "TradingProject/stock.ml" 88 4706 4720
+)
+"TradingProject/stock.ml" 100 5516 5564 "TradingProject/stock.ml" 100 5516 5570
+type(
+  float
+)
+ident(
+  int_ref change "TradingProject/stock.ml" 89 4837 4846 "TradingProject/stock.ml" 89 4837 4852
+)
+"TradingProject/stock.ml" 100 5516 5588 "TradingProject/stock.ml" 100 5516 5601
+type(
+  float
+)
+ident(
+  int_ref changepercent "TradingProject/stock.ml" 90 4927 4936 "TradingProject/stock.ml" 90 4927 4949
+)
+"TradingProject/stock.ml" 100 5516 5620 "TradingProject/stock.ml" 100 5516 5634
+type(
+  fmt:string -> Netdate.t -> string
+)
+ident(
+  ext_ref Netdate.format
+)
+"TradingProject/stock.ml" 100 5516 5635 "TradingProject/stock.ml" 100 5516 5657
+type(
+  string
+)
+"TradingProject/stock.ml" 100 5516 5658 "TradingProject/stock.ml" 100 5516 5669
+type(
+  Netdate.t
+)
+ident(
+  int_ref timeobject2 "TradingProject/stock.ml" 99 5460 5469 "TradingProject/stock.ml" 99 5460 5480
+)
+"TradingProject/stock.ml" 100 5516 5620 "TradingProject/stock.ml" 100 5516 5669
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 100 5516 5695 "TradingProject/stock.ml" 100 5516 5706
+type(
+  Netdate.t
+)
+ident(
+  int_ref timeobject2 "TradingProject/stock.ml" 99 5460 5469 "TradingProject/stock.ml" 99 5460 5480
+)
+"TradingProject/stock.ml" 100 5516 5719 "TradingProject/stock.ml" 100 5516 5727
+type(
+  float option
+)
+ident(
+  int_ref dividend "TradingProject/stock.ml" 91 5025 5034 "TradingProject/stock.ml" 91 5025 5042
+)
+"TradingProject/stock.ml" 100 5516 5736 "TradingProject/stock.ml" 100 5516 5741
+type(
+  float option
+)
+ident(
+  int_ref yield "TradingProject/stock.ml" 95 5276 5285 "TradingProject/stock.ml" 95 5276 5290
+)
+"TradingProject/stock.ml" 100 5516 5525 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote
+)
+"TradingProject/stock.ml" 100 5516 5521 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 99 5460 5465 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 98 5405 5410 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 95 5276 5281 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 94 5196 5201 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 91 5025 5030 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 90 4927 4932 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 89 4837 4842 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 88 4706 4711 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 87 4658 4663 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 86 4591 4596 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 85 4536 4541 "TradingProject/stock.ml" 100 5516 5743
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 101 5744 5750 "TradingProject/stock.ml" 101 5744 5755
+type(
+  bool
+)
+"TradingProject/stock.ml" 101 5744 5759 "TradingProject/stock.ml" 101 5744 5763
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 83 4487 4490 "TradingProject/stock.ml" 102 5764 5770
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 75 4326 4329 "TradingProject/stock.ml" 102 5764 5770
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 74 4279 4282 "TradingProject/stock.ml" 102 5764 5770
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 73 4210 4213 "TradingProject/stock.ml" 102 5764 5770
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 70 4154 4155 "TradingProject/stock.ml" 103 5771 5774
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 69 4119 4120 "TradingProject/stock.ml" 103 5771 5774
+type(
+  stockQuote option
+)
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 110 6165 6169 "TradingProject/stock.ml" 110 6165 6184
+type(
+  Yojson.Safe.json option -> unit
+)
+ident(
+  def printJSONoption "TradingProject/stock.ml" 116 6336 6336 --
+)
+"TradingProject/stock.ml" 110 6165 6186 "TradingProject/stock.ml" 110 6165 6187
+type(
+  Yojson.Safe.json option
+)
+ident(
+  def j "TradingProject/stock.ml" 110 6165 6213 "TradingProject/stock.ml" 114 6330 6334
+)
+"TradingProject/stock.ml" 111 6222 6235 "TradingProject/stock.ml" 111 6222 6236
+type(
+  Yojson.Safe.json option
+)
+ident(
+  int_ref j "TradingProject/stock.ml" 110 6165 6186 "TradingProject/stock.ml" 110 6165 6187
+)
+"TradingProject/stock.ml" 112 6242 6246 "TradingProject/stock.ml" 112 6242 6250
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 112 6242 6254 "TradingProject/stock.ml" 112 6242 6267
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 112 6242 6268 "TradingProject/stock.ml" 112 6242 6274
+type(
+  string
+)
+"TradingProject/stock.ml" 112 6242 6254 "TradingProject/stock.ml" 112 6242 6274
+call(
+  tail
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 113 6275 6283 "TradingProject/stock.ml" 113 6275 6286
+type(
+  Yojson.Safe.json
+)
+ident(
+  def x "TradingProject/stock.ml" 113 6275 6290 "TradingProject/stock.ml" 113 6275 6329
+)
+"TradingProject/stock.ml" 113 6275 6279 "TradingProject/stock.ml" 113 6275 6286
+type(
+  Yojson.Safe.json option
+)
+"TradingProject/stock.ml" 113 6275 6290 "TradingProject/stock.ml" 113 6275 6303
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 113 6275 6305 "TradingProject/stock.ml" 113 6275 6326
+type(
+  ?buf:Bi_outbuf.t -> ?len:int -> ?std:bool -> Yojson.Safe.json -> string
+)
+ident(
+  ext_ref Yojson.Safe.to_string
+)
+"TradingProject/stock.ml" 113 6275 6327 "TradingProject/stock.ml" 113 6275 6328
+type(
+  Yojson.Safe.json
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 113 6275 6283 "TradingProject/stock.ml" 113 6275 6286
+)
+"TradingProject/stock.ml" 113 6275 6304 "TradingProject/stock.ml" 113 6275 6329
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 113 6275 6290 "TradingProject/stock.ml" 113 6275 6329
+call(
+  tail
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 111 6222 6223 "TradingProject/stock.ml" 114 6330 6334
+type(
+  unit
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 116 6336 6340 "TradingProject/stock.ml" 116 6336 6350
+type(
+  stock -> unit
+)
+ident(
+  def printStock "TradingProject/stock.ml" 128 6638 6638 --
+)
+"TradingProject/stock.ml" 116 6336 6352 "TradingProject/stock.ml" 116 6336 6353
+type(
+  stock
+)
+ident(
+  def s "TradingProject/stock.ml" 116 6336 6361 "TradingProject/stock.ml" 126 6585 6636
+)
+"TradingProject/stock.ml" 117 6370 6371 "TradingProject/stock.ml" 117 6370 6384
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 117 6370 6386 "TradingProject/stock.ml" 117 6370 6399
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 117 6370 6400 "TradingProject/stock.ml" 117 6370 6402
+type(
+  string
+)
+"TradingProject/stock.ml" 117 6370 6404 "TradingProject/stock.ml" 117 6370 6414
+type(
+  string
+)
+"TradingProject/stock.ml" 117 6370 6416 "TradingProject/stock.ml" 117 6370 6417
+type(
+  stock
+)
+ident(
+  int_ref s "TradingProject/stock.ml" 116 6336 6352 "TradingProject/stock.ml" 116 6336 6353
+)
+"TradingProject/stock.ml" 117 6370 6416 "TradingProject/stock.ml" 117 6370 6424
+type(
+  string
+)
+"TradingProject/stock.ml" 117 6370 6403 "TradingProject/stock.ml" 117 6370 6425
+type(
+  string list
+)
+"TradingProject/stock.ml" 117 6370 6385 "TradingProject/stock.ml" 117 6370 6426
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 117 6370 6371 "TradingProject/stock.ml" 117 6370 6426
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 118 6428 6433 "TradingProject/stock.ml" 118 6428 6434
+type(
+  string
+)
+"TradingProject/stock.ml" 119 6437 6451 "TradingProject/stock.ml" 119 6437 6452
+type(
+  stock
+)
+ident(
+  int_ref s "TradingProject/stock.ml" 116 6336 6352 "TradingProject/stock.ml" 116 6336 6353
+)
+"TradingProject/stock.ml" 119 6437 6451 "TradingProject/stock.ml" 119 6437 6461
+type(
+  exchange
+)
+"TradingProject/stock.ml" 120 6467 6472 "TradingProject/stock.ml" 120 6467 6478
+type(
+  exchange
+)
+"TradingProject/stock.ml" 120 6467 6482 "TradingProject/stock.ml" 120 6467 6490
+type(
+  string
+)
+"TradingProject/stock.ml" 121 6491 6496 "TradingProject/stock.ml" 121 6491 6500
+type(
+  exchange
+)
+"TradingProject/stock.ml" 121 6491 6504 "TradingProject/stock.ml" 121 6491 6510
+type(
+  string
+)
+"TradingProject/stock.ml" 122 6511 6516 "TradingProject/stock.ml" 122 6511 6519
+type(
+  exchange
+)
+"TradingProject/stock.ml" 122 6511 6523 "TradingProject/stock.ml" 122 6511 6528
+type(
+  string
+)
+"TradingProject/stock.ml" 123 6529 6534 "TradingProject/stock.ml" 123 6529 6541
+type(
+  exchange
+)
+"TradingProject/stock.ml" 123 6529 6545 "TradingProject/stock.ml" 123 6529 6554
+type(
+  string
+)
+"TradingProject/stock.ml" 124 6555 6560 "TradingProject/stock.ml" 124 6555 6565
+type(
+  exchange
+)
+"TradingProject/stock.ml" 124 6555 6568 "TradingProject/stock.ml" 124 6555 6575
+type(
+  string
+)
+"TradingProject/stock.ml" 119 6437 6439 "TradingProject/stock.ml" 125 6576 6581
+type(
+  string
+)
+"TradingProject/stock.ml" 126 6585 6586 "TradingProject/stock.ml" 126 6585 6599
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 126 6585 6601 "TradingProject/stock.ml" 126 6585 6614
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 126 6585 6615 "TradingProject/stock.ml" 126 6585 6617
+type(
+  string
+)
+"TradingProject/stock.ml" 126 6585 6619 "TradingProject/stock.ml" 126 6585 6631
+type(
+  string
+)
+"TradingProject/stock.ml" 126 6585 6633 "TradingProject/stock.ml" 126 6585 6634
+type(
+  string
+)
+ident(
+  int_ref e "TradingProject/stock.ml" 118 6428 6433 "TradingProject/stock.ml" 118 6428 6434
+)
+"TradingProject/stock.ml" 126 6585 6618 "TradingProject/stock.ml" 126 6585 6635
+type(
+  string list
+)
+"TradingProject/stock.ml" 126 6585 6600 "TradingProject/stock.ml" 126 6585 6636
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 126 6585 6586 "TradingProject/stock.ml" 126 6585 6636
+call(
+  tail
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 118 6428 6429 "TradingProject/stock.ml" 126 6585 6636
+type(
+  unit
+)
+"TradingProject/stock.ml" 117 6370 6371 "TradingProject/stock.ml" 126 6585 6636
+type(
+  unit
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 128 6638 6642 "TradingProject/stock.ml" 128 6638 6663
+type(
+  stockQuote option -> unit
+)
+ident(
+  def printStockQuoteOption "TradingProject/stock.ml" 139 7360 7364 --
+)
+"TradingProject/stock.ml" 128 6638 6665 "TradingProject/stock.ml" 128 6638 6666
+type(
+  stockQuote option
+)
+ident(
+  def j "TradingProject/stock.ml" 128 6638 6686 "TradingProject/stock.ml" 139 7360 7364
+)
+"TradingProject/stock.ml" 129 6695 6708 "TradingProject/stock.ml" 129 6695 6709
+type(
+  stockQuote option
+)
+ident(
+  int_ref j "TradingProject/stock.ml" 128 6638 6665 "TradingProject/stock.ml" 128 6638 6666
+)
+"TradingProject/stock.ml" 130 6715 6719 "TradingProject/stock.ml" 130 6715 6723
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 130 6715 6727 "TradingProject/stock.ml" 130 6715 6740
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 130 6715 6741 "TradingProject/stock.ml" 130 6715 6747
+type(
+  string
+)
+"TradingProject/stock.ml" 130 6715 6727 "TradingProject/stock.ml" 130 6715 6747
+call(
+  tail
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 131 6748 6756 "TradingProject/stock.ml" 131 6748 6759
+type(
+  stockQuote
+)
+ident(
+  def x "TradingProject/stock.ml" 132 6763 6766 "TradingProject/stock.ml" 138 7235 7359
+)
+"TradingProject/stock.ml" 131 6748 6752 "TradingProject/stock.ml" 131 6748 6759
+type(
+  stockQuote option
+)
+"TradingProject/stock.ml" 132 6763 6766 "TradingProject/stock.ml" 132 6763 6776
+type(
+  stock -> unit
+)
+ident(
+  int_ref printStock "TradingProject/stock.ml" 116 6336 6340 "TradingProject/stock.ml" 116 6336 6350
+)
+"TradingProject/stock.ml" 132 6763 6777 "TradingProject/stock.ml" 132 6763 6778
+type(
+  stockQuote
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 131 6748 6756 "TradingProject/stock.ml" 131 6748 6759
+)
+"TradingProject/stock.ml" 132 6763 6777 "TradingProject/stock.ml" 132 6763 6784
+type(
+  stock
+)
+"TradingProject/stock.ml" 132 6763 6766 "TradingProject/stock.ml" 132 6763 6784
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 133 6786 6789 "TradingProject/stock.ml" 133 6786 6802
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 133 6786 6804 "TradingProject/stock.ml" 133 6786 6817
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 133 6786 6818 "TradingProject/stock.ml" 133 6786 6820
+type(
+  string
+)
+"TradingProject/stock.ml" 133 6786 6822 "TradingProject/stock.ml" 133 6786 6831
+type(
+  string
+)
+"TradingProject/stock.ml" 133 6786 6833 "TradingProject/stock.ml" 133 6786 6848
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"TradingProject/stock.ml" 133 6786 6849 "TradingProject/stock.ml" 133 6786 6850
+type(
+  stockQuote
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 131 6748 6756 "TradingProject/stock.ml" 131 6748 6759
+)
+"TradingProject/stock.ml" 133 6786 6849 "TradingProject/stock.ml" 133 6786 6856
+type(
+  float
+)
+"TradingProject/stock.ml" 133 6786 6833 "TradingProject/stock.ml" 133 6786 6856
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 133 6786 6821 "TradingProject/stock.ml" 133 6786 6857
+type(
+  string list
+)
+"TradingProject/stock.ml" 133 6786 6803 "TradingProject/stock.ml" 133 6786 6858
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 133 6786 6789 "TradingProject/stock.ml" 133 6786 6858
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 134 6860 6863 "TradingProject/stock.ml" 134 6860 6876
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 134 6860 6878 "TradingProject/stock.ml" 134 6860 6891
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 134 6860 6892 "TradingProject/stock.ml" 134 6860 6894
+type(
+  string
+)
+"TradingProject/stock.ml" 134 6860 6896 "TradingProject/stock.ml" 134 6860 6906
+type(
+  string
+)
+"TradingProject/stock.ml" 134 6860 6907 "TradingProject/stock.ml" 134 6860 6922
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"TradingProject/stock.ml" 134 6860 6923 "TradingProject/stock.ml" 134 6860 6924
+type(
+  stockQuote
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 131 6748 6756 "TradingProject/stock.ml" 131 6748 6759
+)
+"TradingProject/stock.ml" 134 6860 6923 "TradingProject/stock.ml" 134 6860 6931
+type(
+  float
+)
+"TradingProject/stock.ml" 134 6860 6907 "TradingProject/stock.ml" 134 6860 6931
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 134 6860 6895 "TradingProject/stock.ml" 134 6860 6932
+type(
+  string list
+)
+"TradingProject/stock.ml" 134 6860 6877 "TradingProject/stock.ml" 134 6860 6933
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 134 6860 6863 "TradingProject/stock.ml" 134 6860 6933
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 135 6935 6938 "TradingProject/stock.ml" 135 6935 6951
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 135 6935 6953 "TradingProject/stock.ml" 135 6935 6966
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 135 6935 6967 "TradingProject/stock.ml" 135 6935 6969
+type(
+  string
+)
+"TradingProject/stock.ml" 135 6935 6971 "TradingProject/stock.ml" 135 6935 6989
+type(
+  string
+)
+"TradingProject/stock.ml" 135 6935 6990 "TradingProject/stock.ml" 135 6935 7005
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"TradingProject/stock.ml" 135 6935 7006 "TradingProject/stock.ml" 135 6935 7007
+type(
+  stockQuote
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 131 6748 6756 "TradingProject/stock.ml" 131 6748 6759
+)
+"TradingProject/stock.ml" 135 6935 7006 "TradingProject/stock.ml" 135 6935 7022
+type(
+  float
+)
+"TradingProject/stock.ml" 135 6935 6990 "TradingProject/stock.ml" 135 6935 7022
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 135 6935 6970 "TradingProject/stock.ml" 135 6935 7023
+type(
+  string list
+)
+"TradingProject/stock.ml" 135 6935 6952 "TradingProject/stock.ml" 135 6935 7024
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 135 6935 6938 "TradingProject/stock.ml" 135 6935 7024
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 136 7026 7029 "TradingProject/stock.ml" 136 7026 7042
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 136 7026 7044 "TradingProject/stock.ml" 136 7026 7057
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 136 7026 7058 "TradingProject/stock.ml" 136 7026 7060
+type(
+  string
+)
+"TradingProject/stock.ml" 136 7026 7062 "TradingProject/stock.ml" 136 7026 7081
+type(
+  string
+)
+"TradingProject/stock.ml" 136 7026 7082 "TradingProject/stock.ml" 136 7026 7083
+type(
+  stockQuote
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 131 6748 6756 "TradingProject/stock.ml" 131 6748 6759
+)
+"TradingProject/stock.ml" 136 7026 7082 "TradingProject/stock.ml" 136 7026 7099
+type(
+  string
+)
+"TradingProject/stock.ml" 136 7026 7061 "TradingProject/stock.ml" 136 7026 7100
+type(
+  string list
+)
+"TradingProject/stock.ml" 136 7026 7043 "TradingProject/stock.ml" 136 7026 7101
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 136 7026 7029 "TradingProject/stock.ml" 136 7026 7101
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 137 7103 7106 "TradingProject/stock.ml" 137 7103 7119
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 137 7103 7121 "TradingProject/stock.ml" 137 7103 7134
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 137 7103 7135 "TradingProject/stock.ml" 137 7103 7137
+type(
+  string
+)
+"TradingProject/stock.ml" 137 7103 7139 "TradingProject/stock.ml" 137 7103 7151
+type(
+  string
+)
+"TradingProject/stock.ml" 137 7103 7165 "TradingProject/stock.ml" 137 7103 7166
+type(
+  stockQuote
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 131 6748 6756 "TradingProject/stock.ml" 131 6748 6759
+)
+"TradingProject/stock.ml" 137 7103 7165 "TradingProject/stock.ml" 137 7103 7175
+type(
+  float option
+)
+"TradingProject/stock.ml" 137 7103 7182 "TradingProject/stock.ml" 137 7103 7186
+type(
+  float option
+)
+"TradingProject/stock.ml" 137 7103 7190 "TradingProject/stock.ml" 137 7103 7196
+type(
+  string
+)
+"TradingProject/stock.ml" 137 7103 7202 "TradingProject/stock.ml" 137 7103 7205
+type(
+  float
+)
+ident(
+  def x "TradingProject/stock.ml" 137 7103 7209 "TradingProject/stock.ml" 137 7103 7226
+)
+"TradingProject/stock.ml" 137 7103 7198 "TradingProject/stock.ml" 137 7103 7205
+type(
+  float option
+)
+"TradingProject/stock.ml" 137 7103 7209 "TradingProject/stock.ml" 137 7103 7224
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"TradingProject/stock.ml" 137 7103 7225 "TradingProject/stock.ml" 137 7103 7226
+type(
+  float
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 137 7103 7202 "TradingProject/stock.ml" 137 7103 7205
+)
+"TradingProject/stock.ml" 137 7103 7209 "TradingProject/stock.ml" 137 7103 7226
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 137 7103 7152 "TradingProject/stock.ml" 137 7103 7231
+type(
+  string
+)
+"TradingProject/stock.ml" 137 7103 7138 "TradingProject/stock.ml" 137 7103 7232
+type(
+  string list
+)
+"TradingProject/stock.ml" 137 7103 7120 "TradingProject/stock.ml" 137 7103 7233
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 137 7103 7106 "TradingProject/stock.ml" 137 7103 7233
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 138 7235 7238 "TradingProject/stock.ml" 138 7235 7251
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/stock.ml" 138 7235 7253 "TradingProject/stock.ml" 138 7235 7266
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/stock.ml" 138 7235 7267 "TradingProject/stock.ml" 138 7235 7269
+type(
+  string
+)
+"TradingProject/stock.ml" 138 7235 7271 "TradingProject/stock.ml" 138 7235 7280
+type(
+  string
+)
+"TradingProject/stock.ml" 138 7235 7294 "TradingProject/stock.ml" 138 7235 7295
+type(
+  stockQuote
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 131 6748 6756 "TradingProject/stock.ml" 131 6748 6759
+)
+"TradingProject/stock.ml" 138 7235 7294 "TradingProject/stock.ml" 138 7235 7301
+type(
+  float option
+)
+"TradingProject/stock.ml" 138 7235 7308 "TradingProject/stock.ml" 138 7235 7312
+type(
+  float option
+)
+"TradingProject/stock.ml" 138 7235 7316 "TradingProject/stock.ml" 138 7235 7322
+type(
+  string
+)
+"TradingProject/stock.ml" 138 7235 7328 "TradingProject/stock.ml" 138 7235 7331
+type(
+  float
+)
+ident(
+  def x "TradingProject/stock.ml" 138 7235 7335 "TradingProject/stock.ml" 138 7235 7352
+)
+"TradingProject/stock.ml" 138 7235 7324 "TradingProject/stock.ml" 138 7235 7331
+type(
+  float option
+)
+"TradingProject/stock.ml" 138 7235 7335 "TradingProject/stock.ml" 138 7235 7350
+type(
+  float -> string
+)
+ident(
+  ext_ref Pervasives.string_of_float
+)
+"TradingProject/stock.ml" 138 7235 7351 "TradingProject/stock.ml" 138 7235 7352
+type(
+  float
+)
+ident(
+  int_ref x "TradingProject/stock.ml" 138 7235 7328 "TradingProject/stock.ml" 138 7235 7331
+)
+"TradingProject/stock.ml" 138 7235 7335 "TradingProject/stock.ml" 138 7235 7352
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 138 7235 7281 "TradingProject/stock.ml" 138 7235 7357
+type(
+  string
+)
+"TradingProject/stock.ml" 138 7235 7270 "TradingProject/stock.ml" 138 7235 7358
+type(
+  string list
+)
+"TradingProject/stock.ml" 138 7235 7252 "TradingProject/stock.ml" 138 7235 7359
+call(
+  stack
+)
+type(
+  string
+)
+"TradingProject/stock.ml" 138 7235 7238 "TradingProject/stock.ml" 138 7235 7359
+call(
+  tail
+)
+type(
+  unit
+)
+"TradingProject/stock.ml" 137 7103 7106 "TradingProject/stock.ml" 138 7235 7359
+type(
+  unit
+)
+"TradingProject/stock.ml" 136 7026 7029 "TradingProject/stock.ml" 138 7235 7359
+type(
+  unit
+)
+"TradingProject/stock.ml" 135 6935 6938 "TradingProject/stock.ml" 138 7235 7359
+type(
+  unit
+)
+"TradingProject/stock.ml" 134 6860 6863 "TradingProject/stock.ml" 138 7235 7359
+type(
+  unit
+)
+"TradingProject/stock.ml" 133 6786 6789 "TradingProject/stock.ml" 138 7235 7359
+type(
+  unit
+)
+"TradingProject/stock.ml" 132 6763 6766 "TradingProject/stock.ml" 138 7235 7359
+type(
+  unit
+)
+"TradingProject/stock.ml" 129 6695 6696 "TradingProject/stock.ml" 139 7360 7364
+type(
+  unit
+)
+type(
+  unit
+)

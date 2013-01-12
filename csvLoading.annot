@@ -1,0 +1,297 @@
+"TradingProject/csvLoading.ml" 3 2 6 "TradingProject/csvLoading.ml" 3 2 16
+type(
+  string -> string list
+)
+ident(
+  def getTickers "TradingProject/csvLoading.ml" 11 257 257 --
+)
+"TradingProject/csvLoading.ml" 3 2 18 "TradingProject/csvLoading.ml" 3 2 20
+type(
+  string
+)
+ident(
+  def ex "TradingProject/csvLoading.ml" 3 2 29 "TradingProject/csvLoading.ml" 9 199 255
+)
+"TradingProject/csvLoading.ml" 4 46 51 "TradingProject/csvLoading.ml" 4 46 57
+type(
+  Csv.t
+)
+"TradingProject/csvLoading.ml" 4 46 60 "TradingProject/csvLoading.ml" 4 46 68
+type(
+  ?separator:char -> ?excel_tricks:bool -> string -> Csv.t
+)
+ident(
+  ext_ref Csv.load
+)
+"TradingProject/csvLoading.ml" 4 46 69 "TradingProject/csvLoading.ml" 4 46 71
+type(
+  string
+)
+ident(
+  int_ref ex "TradingProject/csvLoading.ml" 3 2 18 "TradingProject/csvLoading.ml" 3 2 20
+)
+"TradingProject/csvLoading.ml" 4 46 60 "TradingProject/csvLoading.ml" 4 46 71
+call(
+  stack
+)
+type(
+  Csv.t
+)
+"TradingProject/csvLoading.ml" 5 75 80 "TradingProject/csvLoading.ml" 5 75 87
+type(
+  Csv.t
+)
+"TradingProject/csvLoading.ml" 5 75 90 "TradingProject/csvLoading.ml" 5 75 97
+type(
+  int -> int -> int -> int -> Csv.t -> Csv.t
+)
+ident(
+  ext_ref Csv.sub
+)
+"TradingProject/csvLoading.ml" 5 75 98 "TradingProject/csvLoading.ml" 5 75 99
+type(
+  int
+)
+"TradingProject/csvLoading.ml" 5 75 100 "TradingProject/csvLoading.ml" 5 75 101
+type(
+  int
+)
+"TradingProject/csvLoading.ml" 5 75 104 "TradingProject/csvLoading.ml" 5 75 113
+type(
+  Csv.t -> int
+)
+ident(
+  ext_ref Csv.lines
+)
+"TradingProject/csvLoading.ml" 5 75 114 "TradingProject/csvLoading.ml" 5 75 120
+type(
+  Csv.t
+)
+ident(
+  int_ref rawcsv "TradingProject/csvLoading.ml" 4 46 51 "TradingProject/csvLoading.ml" 4 46 57
+)
+"TradingProject/csvLoading.ml" 5 75 103 "TradingProject/csvLoading.ml" 5 75 121
+call(
+  stack
+)
+type(
+  int
+)
+"TradingProject/csvLoading.ml" 5 75 122 "TradingProject/csvLoading.ml" 5 75 123
+type(
+  int -> int -> int
+)
+ident(
+  ext_ref Pervasives.( - )
+)
+"TradingProject/csvLoading.ml" 5 75 124 "TradingProject/csvLoading.ml" 5 75 125
+type(
+  int
+)
+"TradingProject/csvLoading.ml" 5 75 102 "TradingProject/csvLoading.ml" 5 75 126
+type(
+  int
+)
+"TradingProject/csvLoading.ml" 5 75 127 "TradingProject/csvLoading.ml" 5 75 128
+type(
+  int
+)
+"TradingProject/csvLoading.ml" 5 75 129 "TradingProject/csvLoading.ml" 5 75 135
+type(
+  Csv.t
+)
+ident(
+  int_ref rawcsv "TradingProject/csvLoading.ml" 4 46 51 "TradingProject/csvLoading.ml" 4 46 57
+)
+"TradingProject/csvLoading.ml" 5 75 90 "TradingProject/csvLoading.ml" 5 75 135
+call(
+  stack
+)
+type(
+  Csv.t
+)
+"TradingProject/csvLoading.ml" 6 139 144 "TradingProject/csvLoading.ml" 6 139 151
+type(
+  string array -> string
+)
+"TradingProject/csvLoading.ml" 6 139 152 "TradingProject/csvLoading.ml" 6 139 153
+type(
+  string array
+)
+ident(
+  def s "TradingProject/csvLoading.ml" 7 157 159 "TradingProject/csvLoading.ml" 7 157 193
+)
+"TradingProject/csvLoading.ml" 7 157 159 "TradingProject/csvLoading.ml" 7 157 172
+type(
+  string -> string list -> string
+)
+ident(
+  ext_ref String.concat
+)
+"TradingProject/csvLoading.ml" 7 157 173 "TradingProject/csvLoading.ml" 7 157 175
+type(
+  string
+)
+"TradingProject/csvLoading.ml" 7 157 177 "TradingProject/csvLoading.ml" 7 157 190
+type(
+  string array -> string list
+)
+ident(
+  ext_ref Array.to_list
+)
+"TradingProject/csvLoading.ml" 7 157 191 "TradingProject/csvLoading.ml" 7 157 192
+type(
+  string array
+)
+ident(
+  int_ref s "TradingProject/csvLoading.ml" 6 139 152 "TradingProject/csvLoading.ml" 6 139 153
+)
+"TradingProject/csvLoading.ml" 7 157 176 "TradingProject/csvLoading.ml" 7 157 193
+call(
+  stack
+)
+type(
+  string list
+)
+"TradingProject/csvLoading.ml" 7 157 159 "TradingProject/csvLoading.ml" 7 157 193
+call(
+  tail
+)
+type(
+  string
+)
+"TradingProject/csvLoading.ml" 9 199 200 "TradingProject/csvLoading.ml" 9 199 208
+type(
+  (string array -> string) -> string array list -> string list
+)
+ident(
+  ext_ref List.map
+)
+"TradingProject/csvLoading.ml" 9 199 209 "TradingProject/csvLoading.ml" 9 199 216
+type(
+  string array -> string
+)
+ident(
+  int_ref tempfun "TradingProject/csvLoading.ml" 6 139 144 "TradingProject/csvLoading.ml" 6 139 151
+)
+"TradingProject/csvLoading.ml" 9 199 218 "TradingProject/csvLoading.ml" 9 199 231
+type(
+  string array array -> string array list
+)
+ident(
+  ext_ref Array.to_list
+)
+"TradingProject/csvLoading.ml" 9 199 233 "TradingProject/csvLoading.ml" 9 199 245
+type(
+  Csv.t -> string array array
+)
+ident(
+  ext_ref Csv.to_array
+)
+"TradingProject/csvLoading.ml" 9 199 246 "TradingProject/csvLoading.ml" 9 199 253
+type(
+  Csv.t
+)
+ident(
+  int_ref tickers "TradingProject/csvLoading.ml" 5 75 80 "TradingProject/csvLoading.ml" 5 75 87
+)
+"TradingProject/csvLoading.ml" 9 199 232 "TradingProject/csvLoading.ml" 9 199 254
+call(
+  stack
+)
+type(
+  string array array
+)
+"TradingProject/csvLoading.ml" 9 199 217 "TradingProject/csvLoading.ml" 9 199 255
+call(
+  stack
+)
+type(
+  string array list
+)
+"TradingProject/csvLoading.ml" 9 199 200 "TradingProject/csvLoading.ml" 9 199 255
+call(
+  tail
+)
+type(
+  string list
+)
+"TradingProject/csvLoading.ml" 6 139 140 "TradingProject/csvLoading.ml" 9 199 255
+type(
+  string list
+)
+"TradingProject/csvLoading.ml" 5 75 76 "TradingProject/csvLoading.ml" 9 199 255
+type(
+  string list
+)
+"TradingProject/csvLoading.ml" 4 46 47 "TradingProject/csvLoading.ml" 9 199 255
+type(
+  string list
+)
+type(
+  string list
+)
+"TradingProject/csvLoading.ml" 11 257 261 "TradingProject/csvLoading.ml" 11 257 275
+type(
+  unit -> string list
+)
+ident(
+  def getNYSETickers "TradingProject/csvLoading.ml" 14 321 321 --
+)
+"TradingProject/csvLoading.ml" 11 257 276 "TradingProject/csvLoading.ml" 11 257 278
+type(
+  unit
+)
+"TradingProject/csvLoading.ml" 12 296 297 "TradingProject/csvLoading.ml" 12 296 307
+type(
+  string -> string list
+)
+ident(
+  int_ref getTickers "TradingProject/csvLoading.ml" 3 2 6 "TradingProject/csvLoading.ml" 3 2 16
+)
+"TradingProject/csvLoading.ml" 12 296 308 "TradingProject/csvLoading.ml" 12 296 318
+type(
+  string
+)
+"TradingProject/csvLoading.ml" 12 296 297 "TradingProject/csvLoading.ml" 12 296 318
+call(
+  tail
+)
+type(
+  string list
+)
+type(
+  string list
+)
+"TradingProject/csvLoading.ml" 14 321 325 "TradingProject/csvLoading.ml" 14 321 341
+type(
+  unit -> string list
+)
+ident(
+  def getNASDAQTickers "TradingProject/csvLoading.ml" 15 361 385 --
+)
+"TradingProject/csvLoading.ml" 14 321 342 "TradingProject/csvLoading.ml" 14 321 344
+type(
+  unit
+)
+"TradingProject/csvLoading.ml" 15 361 362 "TradingProject/csvLoading.ml" 15 361 372
+type(
+  string -> string list
+)
+ident(
+  int_ref getTickers "TradingProject/csvLoading.ml" 3 2 6 "TradingProject/csvLoading.ml" 3 2 16
+)
+"TradingProject/csvLoading.ml" 15 361 373 "TradingProject/csvLoading.ml" 15 361 385
+type(
+  string
+)
+"TradingProject/csvLoading.ml" 15 361 362 "TradingProject/csvLoading.ml" 15 361 385
+call(
+  tail
+)
+type(
+  string list
+)
+type(
+  string list
+)

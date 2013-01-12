@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>TradingProject</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>Ocaml.ocamlbuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>ocaml.ocamlnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>External files/array.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/array.mli</location>
+		</link>
+		<link>
+			<name>External files/csv.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/site-lib/csv/csv.mli</location>
+		</link>
+		<link>
+			<name>External files/http_client.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/site-lib/netclient/http_client.mli</location>
+		</link>
+		<link>
+			<name>External files/list.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/list.mli</location>
+		</link>
+		<link>
+			<name>External files/netdate.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/site-lib/netstring/netdate.mli</location>
+		</link>
+		<link>
+			<name>External files/printf.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/printf.mli</location>
+		</link>
+		<link>
+			<name>External files/str.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/str.mli</location>
+		</link>
+		<link>
+			<name>External files/string.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/string.mli</location>
+		</link>
+		<link>
+			<name>External files/unix.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/unix.mli</location>
+		</link>
+		<link>
+			<name>External files/yojson.mli</name>
+			<type>1</type>
+			<location>/usr/local/lib/ocaml/site-lib/yojson/yojson.mli</location>
+		</link>
+	</linkedResources>
+</projectDescription>

@@ -1,0 +1,530 @@
+"TradingProject/portfolioManager.ml" 10 144 148 "TradingProject/portfolioManager.ml" 10 144 162
+type(
+  portfolio -> int -> unit
+)
+ident(
+  def trackPortfolio "TradingProject/portfolioManager.ml" 28 642 644 --
+)
+"TradingProject/portfolioManager.ml" 10 144 164 "TradingProject/portfolioManager.ml" 10 144 165
+type(
+  portfolio
+)
+ident(
+  def p "TradingProject/portfolioManager.ml" 10 144 177 "TradingProject/portfolioManager.ml" 25 621 638
+)
+"TradingProject/portfolioManager.ml" 10 144 178 "TradingProject/portfolioManager.ml" 10 144 186
+type(
+  int
+)
+ident(
+  def interval "TradingProject/portfolioManager.ml" 10 144 192 "TradingProject/portfolioManager.ml" 25 621 638
+)
+"TradingProject/portfolioManager.ml" 11 202 207 "TradingProject/portfolioManager.ml" 11 202 215
+type(
+  Stock.stockQuote -> unit
+)
+"TradingProject/portfolioManager.ml" 11 202 216 "TradingProject/portfolioManager.ml" 11 202 226
+type(
+  Stock.stockQuote
+)
+ident(
+  def stockQuote "TradingProject/portfolioManager.ml" 12 229 232 "TradingProject/portfolioManager.ml" 15 340 346
+)
+"TradingProject/portfolioManager.ml" 12 229 244 "TradingProject/portfolioManager.ml" 12 229 257
+type(
+  string -> Stock.stockQuote option
+)
+ident(
+  ext_ref Stock.getStockQuote
+)
+"TradingProject/portfolioManager.ml" 12 229 258 "TradingProject/portfolioManager.ml" 12 229 268
+type(
+  Stock.stockQuote
+)
+ident(
+  int_ref stockQuote "TradingProject/portfolioManager.ml" 11 202 216 "TradingProject/portfolioManager.ml" 11 202 226
+)
+"TradingProject/portfolioManager.ml" 12 229 258 "TradingProject/portfolioManager.ml" 12 229 274
+type(
+  Stock.stock
+)
+"TradingProject/portfolioManager.ml" 12 229 258 "TradingProject/portfolioManager.ml" 12 229 281
+type(
+  string
+)
+"TradingProject/portfolioManager.ml" 12 229 244 "TradingProject/portfolioManager.ml" 12 229 281
+call(
+  stack
+)
+type(
+  Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 13 287 293 "TradingProject/portfolioManager.ml" 13 287 297
+type(
+  Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 13 287 301 "TradingProject/portfolioManager.ml" 13 287 303
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 14 304 314 "TradingProject/portfolioManager.ml" 14 304 317
+type(
+  Stock.stockQuote
+)
+ident(
+  def x "TradingProject/portfolioManager.ml" 14 304 321 "TradingProject/portfolioManager.ml" 14 304 339
+)
+"TradingProject/portfolioManager.ml" 14 304 310 "TradingProject/portfolioManager.ml" 14 304 317
+type(
+  Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 14 304 321 "TradingProject/portfolioManager.ml" 14 304 337
+type(
+  Stock.stockQuote -> unit
+)
+ident(
+  ext_ref IndividualStockTracker.insertStockQuote
+)
+"TradingProject/portfolioManager.ml" 14 304 338 "TradingProject/portfolioManager.ml" 14 304 339
+type(
+  Stock.stockQuote
+)
+ident(
+  int_ref x "TradingProject/portfolioManager.ml" 14 304 314 "TradingProject/portfolioManager.ml" 14 304 317
+)
+"TradingProject/portfolioManager.ml" 14 304 321 "TradingProject/portfolioManager.ml" 14 304 339
+call(
+  tail
+)
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 12 229 232 "TradingProject/portfolioManager.ml" 15 340 346
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 16 350 359 "TradingProject/portfolioManager.ml" 16 350 367
+type(
+  Stock.stockQuote list -> 'a
+)
+"TradingProject/portfolioManager.ml" 16 350 368 "TradingProject/portfolioManager.ml" 16 350 372
+type(
+  Stock.stockQuote list
+)
+ident(
+  def list "TradingProject/portfolioManager.ml" 17 375 377 "TradingProject/portfolioManager.ml" 19 425 441
+)
+"TradingProject/portfolioManager.ml" 17 375 377 "TradingProject/portfolioManager.ml" 17 375 386
+type(
+  (Stock.stockQuote -> unit) -> Stock.stockQuote list -> unit
+)
+ident(
+  ext_ref List.iter
+)
+"TradingProject/portfolioManager.ml" 17 375 387 "TradingProject/portfolioManager.ml" 17 375 395
+type(
+  Stock.stockQuote -> unit
+)
+ident(
+  int_ref stockfun "TradingProject/portfolioManager.ml" 11 202 207 "TradingProject/portfolioManager.ml" 11 202 215
+)
+"TradingProject/portfolioManager.ml" 17 375 396 "TradingProject/portfolioManager.ml" 17 375 400
+type(
+  Stock.stockQuote list
+)
+ident(
+  int_ref list "TradingProject/portfolioManager.ml" 16 350 368 "TradingProject/portfolioManager.ml" 16 350 372
+)
+"TradingProject/portfolioManager.ml" 17 375 377 "TradingProject/portfolioManager.ml" 17 375 400
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 18 402 404 "TradingProject/portfolioManager.ml" 18 402 414
+type(
+  int -> unit
+)
+ident(
+  ext_ref Unix.sleep
+)
+"TradingProject/portfolioManager.ml" 18 402 415 "TradingProject/portfolioManager.ml" 18 402 423
+type(
+  int
+)
+ident(
+  int_ref interval "TradingProject/portfolioManager.ml" 10 144 178 "TradingProject/portfolioManager.ml" 10 144 186
+)
+"TradingProject/portfolioManager.ml" 18 402 404 "TradingProject/portfolioManager.ml" 18 402 423
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 19 425 427 "TradingProject/portfolioManager.ml" 19 425 435
+type(
+  Stock.stockQuote list -> 'a
+)
+ident(
+  int_ref mainloop "TradingProject/portfolioManager.ml" 16 350 359 "TradingProject/portfolioManager.ml" 16 350 367
+)
+"TradingProject/portfolioManager.ml" 19 425 436 "TradingProject/portfolioManager.ml" 19 425 440
+type(
+  Stock.stockQuote list
+)
+ident(
+  int_ref list "TradingProject/portfolioManager.ml" 16 350 368 "TradingProject/portfolioManager.ml" 16 350 372
+)
+"TradingProject/portfolioManager.ml" 19 425 427 "TradingProject/portfolioManager.ml" 19 425 441
+call(
+  tail
+)
+type(
+  'a
+)
+"TradingProject/portfolioManager.ml" 18 402 404 "TradingProject/portfolioManager.ml" 19 425 441
+type(
+  'a
+)
+"TradingProject/portfolioManager.ml" 17 375 377 "TradingProject/portfolioManager.ml" 19 425 441
+type(
+  'a
+)
+"TradingProject/portfolioManager.ml" 21 447 456 "TradingProject/portfolioManager.ml" 21 447 463
+type(
+  Stock.stockQuote list -> 'b
+)
+"TradingProject/portfolioManager.ml" 21 447 464 "TradingProject/portfolioManager.ml" 21 447 468
+type(
+  Stock.stockQuote list
+)
+ident(
+  def list "TradingProject/portfolioManager.ml" 22 472 474 "TradingProject/portfolioManager.ml" 23 492 615
+)
+"TradingProject/portfolioManager.ml" 22 472 478 "TradingProject/portfolioManager.ml" 22 472 486
+type(
+  Stock.stockQuote list -> 'b
+)
+ident(
+  int_ref mainloop "TradingProject/portfolioManager.ml" 16 350 359 "TradingProject/portfolioManager.ml" 16 350 367
+)
+"TradingProject/portfolioManager.ml" 22 472 487 "TradingProject/portfolioManager.ml" 22 472 491
+type(
+  Stock.stockQuote list
+)
+ident(
+  int_ref list "TradingProject/portfolioManager.ml" 21 447 464 "TradingProject/portfolioManager.ml" 21 447 468
+)
+"TradingProject/portfolioManager.ml" 22 472 478 "TradingProject/portfolioManager.ml" 22 472 491
+call(
+  stack
+)
+type(
+  'b
+)
+"TradingProject/portfolioManager.ml" 23 492 510 "TradingProject/portfolioManager.ml" 23 492 511
+type(
+  Unix.error
+)
+ident(
+  def a "TradingProject/portfolioManager.ml" 23 492 520 "TradingProject/portfolioManager.ml" 23 492 615
+)
+"TradingProject/portfolioManager.ml" 23 492 512 "TradingProject/portfolioManager.ml" 23 492 513
+type(
+  string
+)
+ident(
+  def b "TradingProject/portfolioManager.ml" 23 492 520 "TradingProject/portfolioManager.ml" 23 492 615
+)
+"TradingProject/portfolioManager.ml" 23 492 514 "TradingProject/portfolioManager.ml" 23 492 515
+type(
+  string
+)
+ident(
+  def c "TradingProject/portfolioManager.ml" 23 492 520 "TradingProject/portfolioManager.ml" 23 492 615
+)
+"TradingProject/portfolioManager.ml" 23 492 499 "TradingProject/portfolioManager.ml" 23 492 516
+type(
+  exn
+)
+"TradingProject/portfolioManager.ml" 23 492 520 "TradingProject/portfolioManager.ml" 23 492 533
+type(
+  string -> unit
+)
+ident(
+  ext_ref Pervasives.print_endline
+)
+"TradingProject/portfolioManager.ml" 23 492 534 "TradingProject/portfolioManager.ml" 23 492 586
+type(
+  string
+)
+"TradingProject/portfolioManager.ml" 23 492 520 "TradingProject/portfolioManager.ml" 23 492 586
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 23 492 588 "TradingProject/portfolioManager.ml" 23 492 598
+type(
+  int -> unit
+)
+ident(
+  ext_ref Unix.sleep
+)
+"TradingProject/portfolioManager.ml" 23 492 599 "TradingProject/portfolioManager.ml" 23 492 601
+type(
+  int
+)
+"TradingProject/portfolioManager.ml" 23 492 588 "TradingProject/portfolioManager.ml" 23 492 601
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 23 492 603 "TradingProject/portfolioManager.ml" 23 492 610
+type(
+  Stock.stockQuote list -> 'b
+)
+ident(
+  int_ref runloop "TradingProject/portfolioManager.ml" 21 447 456 "TradingProject/portfolioManager.ml" 21 447 463
+)
+"TradingProject/portfolioManager.ml" 23 492 611 "TradingProject/portfolioManager.ml" 23 492 615
+type(
+  Stock.stockQuote list
+)
+ident(
+  int_ref list "TradingProject/portfolioManager.ml" 21 447 464 "TradingProject/portfolioManager.ml" 21 447 468
+)
+"TradingProject/portfolioManager.ml" 23 492 603 "TradingProject/portfolioManager.ml" 23 492 615
+call(
+  tail
+)
+type(
+  'b
+)
+"TradingProject/portfolioManager.ml" 23 492 588 "TradingProject/portfolioManager.ml" 23 492 615
+type(
+  'b
+)
+"TradingProject/portfolioManager.ml" 23 492 520 "TradingProject/portfolioManager.ml" 23 492 615
+type(
+  'b
+)
+"TradingProject/portfolioManager.ml" 22 472 474 "TradingProject/portfolioManager.ml" 23 492 615
+type(
+  'b
+)
+"TradingProject/portfolioManager.ml" 25 621 622 "TradingProject/portfolioManager.ml" 25 621 629
+type(
+  Stock.stockQuote list -> unit
+)
+ident(
+  int_ref runloop "TradingProject/portfolioManager.ml" 21 447 456 "TradingProject/portfolioManager.ml" 21 447 463
+)
+"TradingProject/portfolioManager.ml" 25 621 630 "TradingProject/portfolioManager.ml" 25 621 631
+type(
+  portfolio
+)
+ident(
+  int_ref p "TradingProject/portfolioManager.ml" 10 144 164 "TradingProject/portfolioManager.ml" 10 144 165
+)
+"TradingProject/portfolioManager.ml" 25 621 630 "TradingProject/portfolioManager.ml" 25 621 638
+type(
+  Stock.stockQuote list
+)
+"TradingProject/portfolioManager.ml" 25 621 622 "TradingProject/portfolioManager.ml" 25 621 638
+call(
+  tail
+)
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 21 447 448 "TradingProject/portfolioManager.ml" 25 621 638
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 16 350 351 "TradingProject/portfolioManager.ml" 25 621 638
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 11 202 203 "TradingProject/portfolioManager.ml" 25 621 638
+type(
+  unit
+)
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 28 642 648 "TradingProject/portfolioManager.ml" 28 642 649
+type(
+  portfolio option
+)
+ident(
+  def p "TradingProject/portfolioManager.ml" 32 796 798 --
+)
+"TradingProject/portfolioManager.ml" 28 642 665 "TradingProject/portfolioManager.ml" 28 642 678
+type(
+  string -> Stock.stockQuote option
+)
+ident(
+  ext_ref Stock.getStockQuote
+)
+"TradingProject/portfolioManager.ml" 28 642 679 "TradingProject/portfolioManager.ml" 28 642 685
+type(
+  string
+)
+"TradingProject/portfolioManager.ml" 28 642 665 "TradingProject/portfolioManager.ml" 28 642 685
+call(
+  stack
+)
+type(
+  Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 28 642 686 "TradingProject/portfolioManager.ml" 28 642 699
+type(
+  string -> Stock.stockQuote option
+)
+ident(
+  ext_ref Stock.getStockQuote
+)
+"TradingProject/portfolioManager.ml" 28 642 700 "TradingProject/portfolioManager.ml" 28 642 706
+type(
+  string
+)
+"TradingProject/portfolioManager.ml" 28 642 686 "TradingProject/portfolioManager.ml" 28 642 706
+call(
+  stack
+)
+type(
+  Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 28 642 664 "TradingProject/portfolioManager.ml" 28 642 707
+type(
+  Stock.stockQuote option * Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 29 713 720 "TradingProject/portfolioManager.ml" 29 713 723
+type(
+  Stock.stockQuote
+)
+ident(
+  def x "TradingProject/portfolioManager.ml" 29 713 735 "TradingProject/portfolioManager.ml" 29 713 778
+)
+"TradingProject/portfolioManager.ml" 29 713 716 "TradingProject/portfolioManager.ml" 29 713 723
+type(
+  Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 29 713 728 "TradingProject/portfolioManager.ml" 29 713 731
+type(
+  Stock.stockQuote
+)
+ident(
+  def y "TradingProject/portfolioManager.ml" 29 713 735 "TradingProject/portfolioManager.ml" 29 713 778
+)
+"TradingProject/portfolioManager.ml" 29 713 724 "TradingProject/portfolioManager.ml" 29 713 731
+type(
+  Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 29 713 716 "TradingProject/portfolioManager.ml" 29 713 731
+type(
+  Stock.stockQuote option * Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 29 713 751 "TradingProject/portfolioManager.ml" 29 713 752
+type(
+  Stock.stockQuote
+)
+ident(
+  int_ref x "TradingProject/portfolioManager.ml" 29 713 720 "TradingProject/portfolioManager.ml" 29 713 723
+)
+"TradingProject/portfolioManager.ml" 29 713 753 "TradingProject/portfolioManager.ml" 29 713 754
+type(
+  Stock.stockQuote
+)
+ident(
+  int_ref y "TradingProject/portfolioManager.ml" 29 713 728 "TradingProject/portfolioManager.ml" 29 713 731
+)
+"TradingProject/portfolioManager.ml" 29 713 750 "TradingProject/portfolioManager.ml" 29 713 755
+type(
+  Stock.stockQuote list
+)
+"TradingProject/portfolioManager.ml" 29 713 772 "TradingProject/portfolioManager.ml" 29 713 776
+type(
+  portfolio list option
+)
+"TradingProject/portfolioManager.ml" 29 713 739 "TradingProject/portfolioManager.ml" 29 713 778
+type(
+  portfolio
+)
+"TradingProject/portfolioManager.ml" 29 713 735 "TradingProject/portfolioManager.ml" 29 713 778
+type(
+  portfolio option
+)
+"TradingProject/portfolioManager.ml" 30 779 782 "TradingProject/portfolioManager.ml" 30 779 783
+type(
+  Stock.stockQuote option * Stock.stockQuote option
+)
+"TradingProject/portfolioManager.ml" 30 779 787 "TradingProject/portfolioManager.ml" 30 779 791
+type(
+  portfolio option
+)
+"TradingProject/portfolioManager.ml" 28 642 652 "TradingProject/portfolioManager.ml" 31 792 795
+type(
+  portfolio option
+)
+"TradingProject/portfolioManager.ml" 32 796 810 "TradingProject/portfolioManager.ml" 32 796 811
+type(
+  portfolio option
+)
+ident(
+  int_ref p "TradingProject/portfolioManager.ml" 28 642 648 "TradingProject/portfolioManager.ml" 28 642 649
+)
+"TradingProject/portfolioManager.ml" 33 817 824 "TradingProject/portfolioManager.ml" 33 817 827
+type(
+  portfolio
+)
+ident(
+  def x "TradingProject/portfolioManager.ml" 33 817 831 "TradingProject/portfolioManager.ml" 33 817 849
+)
+"TradingProject/portfolioManager.ml" 33 817 820 "TradingProject/portfolioManager.ml" 33 817 827
+type(
+  portfolio option
+)
+"TradingProject/portfolioManager.ml" 33 817 831 "TradingProject/portfolioManager.ml" 33 817 845
+type(
+  portfolio -> int -> unit
+)
+ident(
+  int_ref trackPortfolio "TradingProject/portfolioManager.ml" 10 144 148 "TradingProject/portfolioManager.ml" 10 144 162
+)
+"TradingProject/portfolioManager.ml" 33 817 846 "TradingProject/portfolioManager.ml" 33 817 847
+type(
+  portfolio
+)
+ident(
+  int_ref x "TradingProject/portfolioManager.ml" 33 817 824 "TradingProject/portfolioManager.ml" 33 817 827
+)
+"TradingProject/portfolioManager.ml" 33 817 848 "TradingProject/portfolioManager.ml" 33 817 849
+type(
+  int
+)
+"TradingProject/portfolioManager.ml" 33 817 831 "TradingProject/portfolioManager.ml" 33 817 849
+call(
+  stack
+)
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 34 850 853 "TradingProject/portfolioManager.ml" 34 850 857
+type(
+  portfolio option
+)
+"TradingProject/portfolioManager.ml" 34 850 861 "TradingProject/portfolioManager.ml" 34 850 863
+type(
+  unit
+)
+"TradingProject/portfolioManager.ml" 32 796 798 "TradingProject/portfolioManager.ml" 35 864 867
+type(
+  unit
+)
